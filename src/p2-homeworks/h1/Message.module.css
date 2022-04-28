@@ -1,0 +1,142 @@
+.message {
+    margin: 0 auto;
+    background-color: limegreen;
+    max-width: 500px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: left;
+}
+
+.message__avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    bottom: 15px;
+    left: 15px;
+}
+
+.message__avatar img {
+    height: 100%;
+    border-radius: 50%;
+}
+
+.message__wrapp {
+    margin-left: 70px;
+    padding: 15px;
+    /*padding-right: 5px;*/
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px 10px 10px 0;
+    position: relative;
+}
+
+.message__text-box {
+    margin-right: 75px;
+}
+
+.message__name {
+    color: mediumpurple;
+    font-weight: bolder;
+    padding-bottom: 5px;
+}
+
+.message__text {
+    width: 100%;
+    color: white;
+}
+
+.message__time {
+    color: grey;
+    position: absolute;
+    right: 15px;
+    bottom: 8px;
+}
+
+.message__triangle {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: -18px;
+    bottom: 0;
+}
+
+.message__ball {
+    background-color: limegreen;
+    width: 20px;
+    height: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    left: -20px;
+    bottom: 0;
+}
+
+
+
+
+/*//Альтернативные месаги */
+
+.message-alt {
+    margin: 0 auto;
+    background-color: limegreen;
+    max-width: 500px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: right;
+
+}
+
+.message-alt__avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    bottom: 15px;
+    right: 15px;
+}
+
+.message-alt__avatar img {
+    height: 100%;
+    border-radius: 50%;
+}
+
+.message-alt__wrapp {
+    margin-right: 70px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px 10px 0 10px;
+    position: relative;
+}
+
+.message-alt__text-box {
+    margin-right: 75px;
+}
+
+.message-alt__triangle {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: -18px;
+    bottom: 0;
+}
+
+.message-alt__ball {
+    background-color: limegreen;
+    width: 20px;
+    height: 20px;
+    border-bottom-left-radius: 20px;
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+}
