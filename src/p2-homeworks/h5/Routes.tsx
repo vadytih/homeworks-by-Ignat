@@ -1,4 +1,6 @@
 import React from 'react'
+import PreJunior from "./pages/PreJunior";
+import Error404 from "./pages/Error404";
 
 export const PATH = {
     PRE_JUNIOR: '/pre-junior',

@@ -24,8 +24,8 @@ function AlternativeMessage(props: MessageType) {
                 <div className="message__time">
                     {props.time}
                 </div>
-                <div className="message-alt__triangle"></div>
-                <div className="message-alt__ball"></div>
+                <div className="message-alt__triangle"/>
+                <div className="message-alt__ball"/>
 
             </div>
             <div className="message-alt__avatar">

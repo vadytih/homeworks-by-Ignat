@@ -27,8 +27,8 @@ function Message(props: MessageType) {
                 <div className="message__time">
                     {props.time}
                 </div>
-                <div className="message__triangle"></div>
-                <div className="message__ball"></div>
+                <div className="message__triangle"/>
+                <div className="message__ball"/>
 
             </div>
         </div>
