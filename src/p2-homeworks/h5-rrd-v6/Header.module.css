@@ -1,0 +1,51 @@
+.header {
+
+
+}
+.activ {
+    color: limegreen;
+    background-color: darkblue;
+    padding: 3px;
+    border-radius: 3px;
+    font-weight: bolder;
+}
+.wrapper {
+    position: absolute;
+}
+.navBox {
+    position: relative;
+    left: -250px;
+    transition: all 0.3s;
+}
+
+.navBox:hover {
+    left: 0;
+    transition: all 0.3s;
+    left: -10px;
+
+}
+
+.navLinck {
+    margin-left: 20px;
+    padding: 3px;
+}
+
+.navLinck:hover {
+    background-color: orange;
+
+    border-radius: 3px;
+}
+
+.navLinck:hover {
+    color: black;
+}
+
+.navLinckBtn {
+    width: 25px;
+    height: 25px;
+    background-color: gainsboro;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 10px;
+}
