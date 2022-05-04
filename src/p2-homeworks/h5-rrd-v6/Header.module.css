@@ -15,6 +15,7 @@
 .navBox {
     position: relative;
     left: -250px;
+    top:0px;
     transition: all 0.3s;
 }
 
